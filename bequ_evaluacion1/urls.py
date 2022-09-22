@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from bequ_app1y2 import views as A
+from bequ_app3y4 import views as B
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('init/', A.vista1),
     path('carga/', A.vista2),
+    path('minijefe/', B.vista3),
+    path('finalboss/', B.vista4),
 ]

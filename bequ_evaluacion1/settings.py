@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bequ_app1y2',
+    'bequ_app3y4',
 ]
 
 MIDDLEWARE = [
