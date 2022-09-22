@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from bequ_app1y2 import views as A
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('init/', A.vista1),
+    path('carga/', A.vista2),
 ]
