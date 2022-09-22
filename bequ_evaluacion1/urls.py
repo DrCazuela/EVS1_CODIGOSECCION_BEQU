@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from bequ_app3y4 import views as B
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('minijefe/', B.vista3),
+    path('finalboss/', B.vista4),
 ]
